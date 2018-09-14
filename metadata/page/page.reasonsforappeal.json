@@ -1,0 +1,33 @@
+{
+  "_id": "page.reasonsforappeal",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.reasonsforappeal--radios",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.reasonsforappeal--radios--radio",
+          "_type": "radio",
+          "label": "Yes",
+          "value": "Yes"
+        },
+        {
+          "_id": "page.reasonsforappeal--radios--radio--2",
+          "_type": "radio",
+          "label": "No",
+          "value": "No"
+        }
+      ],
+      "legend": "Has the defendant committed new offences since the last application?",
+      "name": "yesnoradio"
+    }
+  ],
+  "enableSteps": true,
+  "sectionHeading": "Additional offences",
+  "steps": [
+    "page.yesofcourse",
+    "page.ofcoursenot"
+  ],
+  "url": "offences"
+}

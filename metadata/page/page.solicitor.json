@@ -1,0 +1,30 @@
+{
+  "_id": "page.solicitor",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.solicitorname--text",
+      "_type": "text",
+      "label": "Full name",
+      "name": "Full-name-to-insert"
+    },
+    {
+      "_id": "page.solicitorfirm--text",
+      "_type": "text",
+      "label": "Firm",
+      "name": "Firmname-toinsert",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "_id": "page.solicitor--email",
+      "_type": "email",
+      "hint": "We’ll use this to send you a copy of your application, and to contact you with a decision",
+      "label": "Email address",
+      "name": "email-forsolicitors"
+    }
+  ],
+  "heading": "Solicitor’s details",
+  "url": "solicitor"
+}

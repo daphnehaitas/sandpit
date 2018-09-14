@@ -1,0 +1,17 @@
+{
+  "_id": "page.attach",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.attach--fileupload",
+      "_type": "fileupload",
+      "label": "Attach documentation of additional offences",
+      "name": "fileupload"
+    }
+  ],
+  "show": {
+    "identifier": "additionaloffences",
+    "operator": "defined"
+  },
+  "url": "attach"
+}

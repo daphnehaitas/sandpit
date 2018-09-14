@@ -1,0 +1,23 @@
+{
+  "_id": "page.yesofcourse",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.yesofcourse--text",
+      "_type": "text",
+      "label": "What are the additional offences?",
+      "name": "additionaloffences"
+    }
+  ],
+  "enableSteps": true,
+  "sectionHeading": "Additional offences",
+  "show": {
+    "identifier": "yesnoradio",
+    "operator": "is",
+    "value": "Yes"
+  },
+  "steps": [
+    "page.attach"
+  ],
+  "url": "additionaloffences"
+}

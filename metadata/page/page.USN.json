@@ -1,0 +1,18 @@
+{
+  "_id": "page.USN",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.USN--number",
+      "_type": "number",
+      "hint": "Issued with the original application, 7 numbers starting with 2 (for example, 2123456)",
+      "label": "What’s the unique submission number (USN)?",
+      "name": "USN",
+      "validation": {
+        "maximum": 9999999,
+        "minimum": 2000000
+      }
+    }
+  ],
+  "url": "USN"
+}

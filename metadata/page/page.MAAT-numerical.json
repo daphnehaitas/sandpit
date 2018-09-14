@@ -1,0 +1,19 @@
+{
+  "_id": "page.MAAT-numerical",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.MAAT-numerical--number",
+      "_type": "number",
+      "hint": "Issued with the original application, 7 numbers (for example, 6123456)",
+      "label": "Maat number",
+      "name": "Maat-numerical",
+      "repeatable": true,
+      "repeatableHeading": "What’s the Means Assessment Administration Tool (MAAT) number?",
+      "validation": {
+        "maximum": 9999999,
+        "minimum": 999999
+      }
+    }
+  ]
+}

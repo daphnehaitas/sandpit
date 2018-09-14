@@ -1,0 +1,21 @@
+{
+  "_id": "page.MAAT",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.MAAT--text",
+      "_type": "text",
+      "hint": "Issued with the original application, 7 numbers (for example, 6123456)",
+      "label": "MAAT number",
+      "name": "MA",
+      "repeatable": true,
+      "repeatableAdd": "Add another MAAT number",
+      "repeatableHeading": "What’s the Means Assessment Administration Tool (MAAT) number?",
+      "validation": {
+        "maxLength": 7,
+        "minLength": 7
+      }
+    }
+  ],
+  "url": "maat"
+}
